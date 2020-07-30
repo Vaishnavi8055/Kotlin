@@ -8,7 +8,7 @@ fun main() {
     var sentence = "Kotlin is a mordern statically typed language"
     var condition = false;
 
-    /*var Variables are immutable , that is the data stored in them cannot change .*/
+    /*val Variables are immutable , that is the data stored in them cannot change .*/
     val number = 4526
     val decimalNumber = 5.6
     val name = "Kotlin"
