@@ -14,7 +14,7 @@ fun main() {
 
     println(stringLength)                       //length() method
 
-    println("...................")
+    println("......................................................")
 
     val stringIndex = string.get(13)            //get(index) method
 
