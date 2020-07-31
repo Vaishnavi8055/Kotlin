@@ -14,4 +14,12 @@ fun main() {
         println(i)
         i++
     } while (i <= 10)
+
+    println()
+
+    var j = 1
+    do {
+        println(j)         // incremented by 2
+        j += 2
+    } while (j <= 10)
 }
