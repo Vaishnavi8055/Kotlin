@@ -22,4 +22,10 @@ fun main() {
         println(j)         // incremented by 2
         j += 2
     } while (j <= 10)
+
+    var k = 1
+    do {
+        println(k)         // decremented by 2
+        k -= 2
+    } while (k <= 10)
 }
