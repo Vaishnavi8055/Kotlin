@@ -33,6 +33,11 @@ fun main() {
         println(i)
     }
 
+    println()
 
+    for (i in 10 downTo 2) {
+        println(i)                      // downTo is used to decrement loop by n where n = 2,3,4,5....
+
+    }
 
 }
