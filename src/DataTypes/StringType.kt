@@ -16,8 +16,15 @@ fun main() {
 
     println("......................................................")
 
-    val stringIndex = string.get(13)            //get(index) method
+    //val stringIndex = string.get(13)            //get(index) method
 
-    print("The character at index 13 is :- ")
-    println(stringIndex)
+    /*print("The character at index 13 is :- ")
+    println(stringIndex)*/
+
+    println("The character at index 13 is :- ${string.get(13)}")   //print result using string templates
+
+    println("......................................................")
+
+    println("The subsequence of string is : ${string.subSequence(0, 7)}")      //subsequence(startIndex,endIndex+1)
+
 }
