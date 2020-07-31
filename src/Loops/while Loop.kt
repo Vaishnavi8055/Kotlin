@@ -9,7 +9,8 @@ package Loops
 
 fun main() {
 
-    var i = 1
+    var i = 1;
+
     // Syntax of while Loop
     while (i <= 10) {
         println(i)
@@ -19,8 +20,9 @@ fun main() {
     println()
 
     var j = 1
-    while (10 >= j) {            // increment by 2
-        println(j)
+    while (j <= 10) {
+        println(j)             // incremented by 2
         j += 2
     }
+
 }
