@@ -29,5 +29,9 @@ fun main() {
         println("${array[i]}")
     }
 
+    for (i in 1..10 step 2) {           // step is used to increment loop by n where n = 2,3,4,5....
+        println(i)
+    }
+
 
 }
