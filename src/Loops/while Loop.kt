@@ -25,4 +25,10 @@ fun main() {
         j += 2
     }
 
+    var k = 1
+    while (k <= 10) {
+        println(k)             // decremented by 2
+        k -= 2
+    }
+
 }
